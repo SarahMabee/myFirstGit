@@ -1,0 +1,10 @@
+# First Commit 
+myName = 'Sarah Mabee'
+print(myName)
+
+favouriteNumber = 7
+i = 0
+
+while i <= favouriteNumber**2:
+  print (i)
+  i = i + 1
