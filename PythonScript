@@ -8,3 +8,20 @@ i = 0
 while i <= favouriteNumber**2:
   print (i)
   i = i + 1
+
+# Second Commit
+class Engineers:
+  def __init__(self, name, type, yearsOfExperience):
+    self.skill = "Problem Solver"
+    self.name = name
+    self.type = type
+    self.yearsOfExperience = yearsOfExperience
+    
+p1 = Engineers("Sarah Mabee", "Control Systems Engineer", "5")
+p2 = Engineers("Jane Doe", "Software Engineer", "10")
+               
+print(p1.name, p1.type, p1.yearsOfExperience, p1.skill)
+print(p2.name, p2.type, p2.yearsOfExperience, p2.skill)
+
+myNameReversed = myName[::-1]
+print(myNameReversed)
